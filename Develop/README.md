@@ -1,8 +1,8 @@
-# xd  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Professional README Generator  null
   
   ## Description
   
-    xd
+    The purpose of this project is the automatically generate a README for developers, after they input data in the command line.
   
   ## Table of Contents
   
@@ -20,19 +20,19 @@
   
   To install your dependencies, you will be using the command:
   
-    xd
+    npm install
   
   ---
   
   ## Usage
   
-  xd
+  You will need to change directories to "Develop" before installing your dependencies.
   
   ---
   
   ## Contributing
   
-  xd
+  
   
   ---
   
@@ -40,19 +40,14 @@
   
   To test the application, you will be using the command:
   
-    xd
+    npm start
   
   ---
   
   ## Questions
   
-  If you have any questions, you can e-mail me at xd.
-  You can also access my other projects at https://github.com/dx
+  If you have any questions, you can e-mail me at peterjinchristiansen@gmail.com.
+  You can also access my other projects at https://github.com/peterjinchristiansen
   
-  ---
-  ## License
   
-  This project has been licensed by Apache.
-  
-        
     

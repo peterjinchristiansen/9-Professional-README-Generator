@@ -260,7 +260,6 @@ ${data.walkthrough}
 
   
 function renderLicense(data) {
-    console.log(data.license)
     if(data.license === 'None') {
         return "";
     } else {

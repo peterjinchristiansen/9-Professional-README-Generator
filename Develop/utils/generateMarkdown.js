@@ -2,7 +2,9 @@ function renderTitle(data) {
     if(!data.title) {
         return "No Title Entered"
     } else {
-        return `## ${data.title}`;
+        return `## ${data.title}
+---
+        `;
     }
 }
 
@@ -80,7 +82,7 @@ function renderTableOfContents(data) {
         questionsTOC = '[Questions](#questions)'
     }
 
-    if(data.license) {
+    if(data.license !== "None") {
         licenseTOC = '[License](#license)'
     }
 
@@ -147,18 +149,21 @@ function renderUsage(data) {
         usageOther = data.usage;
     }
 
-    return `
+    if(!data.link && !data.usage) {
+        return "";
+    } else {
+        return `
 
 ## Usage
-    
+            
 ${usageLink}
-
+        
 ${usageOther}
-
+        
 ---
-
-    `;
-
+        
+            `;
+    }
 }
 
 function renderContributing(data) {
@@ -255,6 +260,7 @@ ${data.walkthrough}
 
   
 function renderLicense(data) {
+    console.log(data.license)
     if(data.license === 'None') {
         return "";
     } else {

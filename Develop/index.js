@@ -61,7 +61,7 @@ inquirer.prompt([
             'Unlicense',
             'WTFPL',
             'Zlib',
-            'None',
+            'None'
         ]
     },
     {

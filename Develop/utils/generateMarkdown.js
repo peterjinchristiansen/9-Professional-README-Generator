@@ -2,9 +2,7 @@ function renderTitle(data) {
     if(!data.title) {
         return "No Title Entered"
     } else {
-        return `## ${data.title}
----
-        `;
+        return `## ${data.title}`;
     }
 }
 
@@ -42,6 +40,7 @@ function renderDescription(data) {
         return "";
     } else {
         return `
+---
 ## Description
 
     ${data.description}

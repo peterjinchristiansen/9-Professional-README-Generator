@@ -64,7 +64,7 @@ If you have any questions, you can email me at peterjinchristiansen@gmail.com. Y
 
 ## Walkthrough
 
-(insert walkthrough here)
+https://watch.screencastify.com/v/VW3BPMGc47NovlYpFboJ
 
 ---
         
